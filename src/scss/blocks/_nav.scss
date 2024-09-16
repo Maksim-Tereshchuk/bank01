@@ -1,0 +1,22 @@
+.header__menu {
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+  }
+  &-item {
+    transition-duration: 0.3s;
+    @include hover {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--color-black--nav);
+      padding: 12px 24px;
+      border-radius: 40px;
+    }
+  }
+  &-link {
+    font-size: var(--font-size);
+    line-height: 150%;
+    color: white;
+  }
+}

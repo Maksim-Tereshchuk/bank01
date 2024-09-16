@@ -1,0 +1,24 @@
+:root {
+  --container: 1596px;
+  --padding-inline: 15px;
+
+  --transition-duration: 0.3s;
+  //
+  --font-size-title: clamp(1.75rem, 1.462rem + 1.28vw, 3rem);
+  --font-size-main: clamp(0.875rem, 0.817rem + 0.26vw, 1.125rem);
+  --font-size: clamp(0.875rem, 0.815rem + 0.26vw, 1.125rem);
+  //
+  --color-green: #caff33;
+  --color-white: white;
+  --color-black: #1c1c1c;
+  --color-black--nav: #262626;
+  --color-green-black: #22251b;
+  --color-black-box: #1a1a1a;
+  --color-black-box--bg: #1c1c1c;
+
+  --color-gray: #e4e4e7;
+  --color-bg: #181818;
+  --color-gray: #b3b3b3;
+  //
+  --font-family: "Lexend";
+}

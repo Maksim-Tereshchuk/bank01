@@ -1,0 +1,6 @@
+.logo {
+  @include tablet {
+    max-width: 116px;
+    height: auto;
+  }
+}
